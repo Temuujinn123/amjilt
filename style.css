@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap');
+
+.header {
+    background-image: url(https://amjilt.com/landing-assets/upload/background-slider-app.jpg);
+    background-size: cover;
+    background-position: center;
+    background-clip: border-box;
+    transition: .3s;
+    animation: guih 1s 1;
+    animation-delay: .5s;
+}
+
+.header .container ul li:hover {
+    transition: .5s;
+    color: #6eb9ff;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.bg-blue {
+    background-image: url(https://amjilt.com/landing-assets/upload/background-slider-app.jpg);
+    background-size: cover;
+    background-position: center;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -9999999;
+    transition: .3s;
+    animation: ehend 1s 1;
+}
+
+@keyframes ehend {
+    40% {
+        transform: translate(-100%);
+    }
+
+    100% {
+        transform: translate(0);
+    }
+}
+
+@keyframes guih {
+    from {
+        transform: translate(-100%);
+    }
+
+    to {
+        transform: translate(0);
+    }
+}
+
+.nu-text {
+    font-family: 'Nunito', sans-serif;
+}
+
+.nu-light {
+    font-family: 'Nunito', sans-serif;
+}
+
+.nu-reg {
+    font-family: nunito-regular;
+}
+
+.filter {
+    filter: grayscale(100%);
+    transition: .5s;
+}
+
+.filter:hover {
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
+.space {
+    height: 3px;
+    width: 70px;
+    margin-top: 10px;
+    background: linear-gradient(to right, #2f9bea 0%, #76cfae 100%) !important;
+}
+
+.space-1 {
+    background-color: #ed812f;
+    height: 3px;
+    width: 70px;
+    margin-top: 10px;
+    float: right;
+}
+
+.h1-color {
+    color: #0b78e3;
+}
+
+.p-color {
+    color: #2A2F35;
+}
+
+.transform {
+    transform: translateX(0);
+    transition: .3s;
+}
+
+.transform:hover {
+    transform: translateY(-10px);
+}
+
+.bg-title {
+    background-image: linear-gradient(to left, #0084ff , #2d3e84);
+}
+
+.bg-title-1 {
+    background-image: linear-gradient(to right, #0084ff , #2d3e84);
+}
+
+.main-img {
+    height: 485px;
+    background-image: url(https://amjilt.com/landing-assets/upload/subback.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -300px;
+}
+
+.box {
+    width: 300px;
+    height: 375px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.img-1 {
+    background-image: url(https://amjilt.com/landing-assets/upload/new/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+.img-2 {
+    background-image: url(https://amjilt.com/landing-assets/upload/new/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+.img-3 {
+    background-image: url(https://amjilt.com/landing-assets/upload/new/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+.img-4 {
+    background-image: url(https://amjilt.com/landing-assets/upload/new/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+.color-g {
+    color: #828282;
+}
+
+.card {
+    width: 100%;
+    height: 100px;
+    padding-right: 15px;
+    padding-left: 48px;
+    background-color: #0084ff;
+    position: relative;
+}
+
+.card:hover {
+    background-image: linear-gradient(to right, #2d3e84, #0084ff);
+}
+
+.i {
+    width: 40px;
+    height: 40px;
+}
+
+.i::before {
+    width: 40px;
+    height: 40px;
+}
+
+.navList {
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+    left: 0;
+    top: 80%;
+    width: 100%;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding: 1rem;
+    z-index: 999999999;
+}
+
+.card:hover .navList {
+    opacity: 1;
+    visibility: visible;
+}
+
+.navList li {
+    padding-left: 10px;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.navList li::before {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin-left: 1rem;
+    content: "\2022";
+    color: #0084ff;
+    font-weight: bolder;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.card:hover .flex #anime {
+    animation: tomroh .5s 1;
+    transform: scale(1.5);
+}
+
+@keyframes tomroh {
+    0% {
+        transform: scale(1);
+    }
+    40% {
+        transform: scale(1.5);
+    }
+    75% {
+        transform: scale(1.3);
+    }
+    100% {
+        transform: scale(1.5);
+    }
+}
+
+.bg-neg {
+    background-image: url(https://amjilt.com/landing-assets/upload/banner23.png);
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+.small-box {
+    width: 400px;
+    height: 100px;
+    border: 1px solid white;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    background-color: #2C99ED;
+}
+
+.small-box:hover .icon {
+    animation: chichreh 1s 1;
+}
+
+@keyframes chichreh {
+    0% {
+        transform:translateY(0);
+    }
+    25% {
+        transform:translateY(-10px);
+    }
+    50% {
+        transform:translateY(0);
+    }
+    75% {
+        transform:translateY(-10px);
+    }
+    100% {
+        transform:translateY(0);
+    }
+}
+
+.icon-img {
+    width: 45px;
+    height: 45px;
+}
+
+.p {
+    font-size: 20px;
+}
+
+.img-5 {
+    background-position: center;
+    background-clip: border-box;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    box-shadow: 0px 0px 19px -5px rgb(0 0 0 / 75%);
+}
+
+.big-box {
+    width: 22%;
+    height: 350px;
+    margin: 0 15px;
+    border-radius: 1rem;
+    transition: .5s;
+    display: inline-block;
+}
+
+.big-color:hover {
+    transition: .5s;
+}
+
+.big-img {
+    background-image: url(https://amjilt.com/landing-assets/upload/new/banner4.jpg);
+    z-index: -1;
+    background-position: center;
+    background-clip: border-box;
+    background-size: cover;
+}
+
+.big-img2 {
+    background-image: url(https://amjilt.com/landing-assets/upload/new/banner3.jpg);
+    z-index: -1;
+    background-position: center;
+    background-clip: border-box;
+    background-size: cover;
+}
+
+.big-img3 {
+    background-image: url(https://amjilt.com/landing-assets/upload/new/banner2.jpg);
+    z-index: -1;
+    background-position: center;
+    background-clip: border-box;
+    background-size: cover;
+}
+
+.big-img4 {
+    background-image: url(https://amjilt.com/landing-assets/upload/new/banner1.jpg);
+    z-index: -1;
+    background-position: center;
+    background-clip: border-box;
+    background-size: cover;
+}
+
+.border-left {
+    border-left: 5px solid #0074ff;
+    padding-left: 5px;
+}
+
+.margin-bot {
+    margin-bottom: 180px;
+    padding-top: 1rem;
+    margin-right: 1rem;
+}
+
+.big-box:hover .bg-color {
+    background-color: rgba(0, 116, 255, 0.7) !important;
+    transition: .3s;
+}
+
+.big-box:hover .bg-color h1 {
+    color: white;
+    transition: .3s;
+}
+
+.big-box:hover .bg-color h2 {
+    color: white;
+    border-left: 5px solid white;
+    transition: .3s;
+}
+
+.qr img {
+    width: 150px;
+    height: 150px;
+}
+
+.store img {
+    width: 150px;
+    height: 50px;
+}
+
+.f-anime:hover .f-icon {
+    animation: hodloh 1s 1;
+}
+
+@keyframes hodloh {
+    0% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-5px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.f-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #2C99ED;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.f-h1 {
+    margin-top: 6px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #828282;
+}
+
+.licence {
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+}

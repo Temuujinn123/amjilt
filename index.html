@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.2.0/swiper-bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js" integrity="sha512-Kr+RPfLjQ71E0cJ9nseJ6jwTrnmMnuSPnnsVQQ/ZYYCjOHKfJcWj8ILICXnvf9A7ZQChNzIbr9x/ZAxA6xAZlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="header w-full h-screen">
+        <div class="container px-12 py-4 flex justify-between items-center">
+            <div class="logo w-40">
+                <img class="cursor-pointer" src="https://amjilt.com/landing-assets/upload/logo-barrel8-1.png" alt="">
+            </div>
+            <div class="menu">
+                <ul class="flex items-center justify-center gap-8 list-none text-white text-sm uppercase font-bold">
+                    <li class="px-3 py-2 rounded-full hover:bg-white">Мэдээ</li>
+                    <li class="px-3 py-2 rounded-full hover:bg-white">Багш.мн</li>
+                    <li class="px-3 py-2 rounded-full hover:bg-white">Одоо суръя</li>
+                    <li class="px-3 py-2 rounded-full hover:bg-white">Зуузуугийн найзууд</li>
+                    <li class="border-2 border-solid border-white px-3 py-2 rounded-full hover:bg-white">Сургуулиуд</li>
+                    <li class="border-2 border-solid border-white px-3 py-2 rounded-full hover:bg-white">Гарах</li>
+                </ul>
+            </div>
+        </div>
+        <div class="hero px-12 flex justify-center items-center gap-20 py-4 w-full h-3/4">
+            <div class="phone-img w-96">
+                <img src="https://amjilt.com/landing-assets/upload/iphone-slider-big.png" alt="">
+            </div>
+            <div class="hero-title">
+                <h1 class="nu-text text-6xl text-white font-bold">АМЖИЛТ 2.0</h1>
+                <h2 class="nu-text text-base text-white font-bold">СУРГУУЛИЙН ЦОГЦ СИСТЕМ</h2>
+                <br>
+                <h3 class="nu-light text-sm text-white py-6">Сургуулийн менежментийн 
+                <br>"ТӨГС" удирдахуй</h3>
+                <div class="store flex gap-4">
+                    <img class="w-40 cursor-pointer" src="https://amjilt.com/landing-assets/upload/download/android.png" alt="">
+                    <img class="w-40 cursor-pointer" src="https://amjilt.com/landing-assets/upload/download/apple.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main class="w-full">
+        <div class="w-full h-24 my-12 px-32">
+            <div class="container overflow-hidden flex">
+                <img class="px-4 filter h-24" src="https://amjilt.com/landing-assets/upload/partners/1.png" alt="">
+                <img class="px-4 filter h-24" src="https://amjilt.com/landing-assets/upload/partners/2.png" alt="">
+                <img class="px-4 filter h-24" src="https://amjilt.com/landing-assets/upload/partners/3.jpg" alt="">
+                <img class="px-4 filter h-24" src="https://amjilt.com/landing-assets/upload/partners/4.png" alt="">
+                <img class="px-4 filter h-24" src="https://amjilt.com/landing-assets/upload/partners/5.png" alt="">
+                <img class="px-4 filter h-24" src="https://amjilt.com/landing-assets/upload/partners/6.jpg" alt="">
+                <img class="px-4 filter h-24" src="https://amjilt.com/landing-assets/upload/partners/7.jpg" alt="">
+                <img class="px-4 filter h-24" src="https://amjilt.com/landing-assets/upload/partners/8.jpg" alt="">
+                <img class="px-4 filter h-24" src="https://amjilt.com/landing-assets/upload/partners/9.jpg" alt="">
+                <img class="px-4 filter h-24" src="https://amjilt.com/landing-assets/upload/partners/10.jpg" alt="">
+                <img class="px-4 filter h-24" src="https://amjilt.com/landing-assets/upload/partners/11.png" alt="">
+            </div>
+        </div>
+
+        <div class="container my-12 px-32 flex gap-4 overflow-hidden">
+            <div class="w-full cursor-pointer hover:transform translate-y-1 transform">
+                <img class="sr-left" src="https://amjilt.com/landing-assets/upload/iphone-text-slider.png" alt="">
+            </div>
+            <div class="w-full sr-right">
+                <h1 class="nu-text text-4xl font-bold h1-color">"Амжилт Дотком" ХХК</h1>
+                <div class="space"></div>
+                <p class="pt-8 text-lg p-color nu-reg font-medium">“Амжилт Дотком” ХХК нь “Том амжилт” ХХК –ийн охин компани болон 2015 онд үүсгэн байгуулагдсан. Дижитал технологи, программ хангамжийн чиглэлээр үйл ажиллагаа явуулдаг бөгөөд 2017 оноос хамгийн сүүлийн үеийн програмчлалын хэл болох Rеact JS, React Native, Express JS, MongoDB дээр боловсролын салбарт зориулан “Амжилт 2.0” системийг хөгжүүлж байна. Монголын шилдэг программистуудаар багаа бүрдүүлэн ажиллаж, ирээдүйд дэлхийн бусад оронд ашиглах боломжийг бүрдүүлэхээр шинийг эрэлхийлэн өдөр бүр хөгжин дэвшсээр байна.</p>
+            </div>
+        </div>
+
+        <div class="w-full h-24 mt-6 relative sr-left overflow-hidden">
+            <div class="w-full rounded-3xl nu-text uppercase text-right bg-title text-white absolute right-1/2">
+                <p class="px-6 py-3">ДИЖИТАЛ ШИЛЖИЛТ - 2020 / 2021</p>
+            </div>
+        </div>
+
+        <div class="container my-12 px-32 flex gap-4 overflow-hidden">
+            <div class="w-full sr-left">
+                <h1 class="nu-text text-4xl font-bold h1-color uppercase text-right">Амжилт 2.0 системийг хэрэглэх шалтгаан</h1>
+                <div class="space-1 text-right"></div>
+                <p class="pt-8 text-lg p-color nu-reg font-medium text-right">Дэлхий нийтээрээ дижитал шилжилт хийж хувийн болон төрийн өмчийн байгууллагууд өөрсдийн үйл ажиллагаатай холбоотой бүхий л мэдээллийг дата хэлбэрт шилжүүлж эхэллээ. Ингэснээр байгууллага өөрийн бүх үйл ажиллагаанд дүн шинжилгээ хийхээс гадна хэзээ ч устахгүй өсөн нэмэгдэх мэдээллийн баазтай болдог. Амжилт 2.0 сургуулийн цогц систем нь урт хугацаанд хөгжих үндэсний дижитал төсөл юм.</p>
+            </div>
+            <div class="w-11/12 cursor-pointer hover:transform translate-y-1 transform">
+                <img class="sr-right" src="https://amjilt.com/landing-assets/upload/asiangirl.png" alt="">
+            </div>
+        </div>
+
+        <div class="w-full h-96 relative">
+            <div class="absolute main-img w-full -top-24 "></div>
+        </div>
+
+        <div class="w-full h-24 mt-14 relative overflow-hidden">
+            <div class="w-full rounded-3xl nu-text uppercase text-left bg-title-1 text-white absolute left-24 sr-right">
+                <p class="px-6 py-3">Комьпютер - таблет - гар утас - нөүтбүүк зэрэг төхөөрөмжүүдээс холбогдох боломжтой</p>
+            </div>
+        </div>
+
+        <div class="container my-12 px-32 flex gap-4 overflow-hidden">
+            <div class="w-5/12 sr-left">
+                <h1 class="nu-text text-4xl font-bold h1-color uppercase text-right">АМЖИЛТ 2.0 СИСТЕМ</h1>
+                <div class="space-1 text-right"></div>
+                <p class="pt-8 text-lg p-color nu-reg font-medium text-left">“Амжилт 2.0” систем нь сургуулийн удирдлага, багш,сурагч, эцэг эх гэсэн үндсэн дөрвөн нэвтрэх эрхтэй. Тус нэвтрэх эрхүүд өөр өөрийн гэсэн модулиудыг агуулсан цогц систем юм. Уг систем нь боловсролын салбарт дижитал шилжилтийг хийж, багш ажилчдын ажлыг хөнгөвчлөх , сурагч, эцэг эх, багш, сургуулийн удирдлага гэх дөрөвлөсөн холбоог сайжруулах зорилготойгоор хэрэглэхэд хамгийн хялбар хэлбэрээр бүтээгдсэн дэвшилтэд бүтээл юм.</p>
+            </div>
+            <div class="w-full cursor-pointer hover:transform translate-y-1 transform">
+                <img class="sr-right" src="https://amjilt.com/landing-assets/upload/computer.png" alt="">
+            </div>
+        </div>
+
+        <div class="w-full">
+            <div class="container py-40 px-12 flex flex-col justify-center items-center">
+                <div class="">
+                    <h1 class="h1-color text-4xl nu-text font-bold">СИСТЕМИЙН ҮНДСЭН МОДИУЛУУД</h1>
+                </div>
+                <div class="space"></div>
+                <div class="w-full mt-16 px-4 flex justify-center items-center flex-row gap-8">
+                    <div class="box shadow-xl w-full rounded-3xl overflow-hidden transform cursor-pointer hover:shadow-2xl">
+                        <div class="img-1 h-32"></div>
+                        <div class="px-4">
+                            <h4 class="text-base my-4 nu-text font-bold">СУРГУУЛИЙН УДИРДЛАГА</h4>
+                            <p class="color-g nu-text text-left">Сургуулийн нийт сурагчдын ирц, дүнгийн мэдээллийг хянах самбараас жил, улирал, өдрөөр ангилан харах боломжтой. Мөн зарлал, мэдэгдэл илгээх, сургалтын хөтөлбөр төлөвлөх.</p>
+                        </div>
+                    </div>
+
+                    <div class="box shadow-xl w-full rounded-3xl overflow-hidden transform cursor-pointer hover:shadow-2xl">
+                        <div class="img-2 h-32"></div>
+                        <div class="px-4">
+                            <h4 class="text-base my-4 nu-text font-bold">СУРАГЧ</h4>
+                            <p class="color-g nu-text text-left">Өөрийн ирц дүнтэй танилцах, хичээлээ нөхөж үзэх, ахисан түвшний хичээл судлах, мэдээлэл солилцох боломжтой.</p>
+                        </div>
+                    </div>
+
+                    <div class="box shadow-xl w-full rounded-3xl overflow-hidden transform cursor-pointer hover:shadow-2xl">
+                        <div class="img-3 h-32"></div>
+                        <div class="px-4">
+                            <h4 class="text-base my-4 nu-text font-bold">БАГШ</h4>
+                            <p class="color-g nu-text text-left">Онлайнаар шалгалт авах, хичээл оруулах, гэрийн даалгавар өгч авах, эцэг эхчүүдтэй харилцах, хичээлийн хуваарь төлөвлөх, ажилласан цагаа хянах зэрэг үйлдэлтэй.</p>
+                        </div>
+                    </div>
+
+                    <div class="box shadow-xl w-full rounded-3xl overflow-hidden transform cursor-pointer hover:shadow-2xl">
+                        <div class="img-4 h-32"></div>
+                        <div class="px-4">
+                            <h4 class="text-base my-4 nu-text font-bold">ЭЦЭГ ЭХ</h4>
+                            <p class="color-g nu-text text-left">Хүүхдийнхээ ирц, дүн, төлбөрийн мэдээлэлтэй танилцах, онлайнаар төлөх, сургуулийн захиргаанд санал хүргүүлэх, мэдэгдэл хүлээн авах боломжтой.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container px-28 cursor-pointer flex gap-8">
+                <div class="card rounded-2xl relative">
+                    <div class="flex items-center justify-center p-10 text-white w-full gap-2" href="#">
+                        <i id="anime" class="fas fa-chart-area"></i>
+                        <h1 class="text-base nu-text font-bold"> ДҮН БҮРТГЭЛ</h1>
+                    </div>
+                    <ul class="navList list-none h1-color bg-white absolute">
+                        <li class="text-black">Дүн оруулах</li>
+                        <li class="text-black">Дүнгийн мэдээлэл өдөр, сар, улирал, жилээр ангилан графикаар харах</li>
+                        <li class="text-black">Дүнгийн өсөлт, бууралтыг харьцуулах</li>
+                        <li class="text-black">Дүнгийн мэдээллийг багш,сурагч, эцэг эх, сургуулийн удирдлага хянах боломжтой</li>
+                    </ul>
+                </div>
+                <div class="card rounded-2xl relative">
+                    <div class="flex items-center justify-center p-10 text-white w-full gap-2" href="#">
+                        <i id="anime" class="fas fa-home"></i>
+                        <h1 class="text-base nu-text font-bold"> ГЭРИЙН ДААЛГАВАР</h1>
+                    </div>
+                    <ul class="navList list-none h1-color bg-white absolute">
+                        <li class="text-black">Гэрийн даалгавар оруулах</li>
+                        <li class="text-black">Гэрийн даалгавар явуулах</li>
+                        <li class="text-black">Гэрийн даалгавар шалгах</li>
+                        <li class="text-black">Гэрийн даалгаврын гүйцэтгэлийг харах</li>
+                        <li class="text-black">Багш өмнөх гэрийн даалгаврын сангаасаа дахин оруулах</li>
+                        <li class="text-black">Гэрийн даалгаврын мэдээллийг анги,бүлэг, хүүхэд тус бүрээр шүүж харах</li>
+                    </ul>
+                </div>
+                <div class="card rounded-2xl relative">
+                    <div class="flex items-center justify-center p-10 text-white w-full gap-2" href="#">
+                        <i id="anime" class="fas fa-clipboard-check"></i>
+                        <h1 class="text-base nu-text font-bold"> НЭХЭМЖЛЭЛ</h1>
+                    </div>
+                    <ul class="navList list-none h1-color bg-white absolute">
+                        <li class="text-black">Төлбөрийн нэхэмжлэл илгээх</li>
+                        <li class="text-black">Эцэг эх нэхэмжлэлийг хүлээж авах</li>
+                        <li class="text-black">Хүүхэд тус бүрийн төлбөрийн мэдээллийг харах</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container py-6 px-28 cursor-pointer flex gap-8">
+                <div class="card rounded-2xl relative">
+                    <div class="flex items-center justify-center p-10 text-white w-full gap-2" href="#">
+                        <i id="anime" class="far fa-check-square"></i>
+                        <h1 class="text-base nu-text font-bold"> ИРЦ БҮРТГЭЛ</h1>
+                    </div>
+                    <ul class="navList list-none h1-color bg-white absolute">
+                        <li class="text-black">Ирц бүртгэх</li>
+                        <li class="text-black">Ирцийг өдөр,сар, улирлаар ангилан графикаар харах</li>
+                        <li class="text-black">Ирцийн мэдээллийг багш,сурагч, эцэг эх, сургуулийн удирдлага хянах</li>
+                        <li class="text-black">Ирцийг багш гар утаснаасаа оруулах боломжтой</li>
+                    </ul>
+                </div>
+                <div class="card rounded-2xl relative">
+                    <div class="flex items-center justify-center p-10 text-white w-full gap-2" href="#">
+                        <i id="anime" class="far fa-file-alt"></i>
+                        <h1 class="text-base nu-text font-bold"> ХИЧЭЭЛИЙН ХУВААРЬ</h1>
+                    </div>
+                    <ul class="navList list-none h1-color bg-white absolute">
+                        <li class="text-black">Сургуулийн удирдлага болон багш хичээлийн хуваарь оруулах</li>
+                        <li class="text-black">Хичээлийн хуваарийг засварлах</li>
+                        <li class="text-black">Хичээлийн хуваарийг сурагч болон эцэг эх  харах боломжтой</li>
+                </div>
+                <div class="card rounded-2xl relative">
+                    <div class="flex items-center justify-center p-10 text-white w-full gap-2" href="#">
+                        <i id="anime" class="far fa-newspaper"></i>
+                        <h1 class="text-base nu-text font-bold"> АЖИЛ ТӨЛӨВЛӨЛТ</h1>
+                    </div>
+                    <ul class="navList list-none h1-color bg-white absolute">
+                        <li class="text-black">Ажил төлөвлөлтийг багш бүр оруулах</li>
+                        <li class="text-black">Ажил төлөвлөлтийг сургуулийн удирдлага харах</li>
+                        <li class="text-black">Өдөр, сар, жилээр ажил төлөвлөлтийг хийх боломжтой</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container px-28 cursor-pointer flex gap-8">
+                <div class="card rounded-2xl relative">
+                    <div class="flex items-center justify-center p-10 text-white w-full gap-2" href="#">
+                        <i id="anime" class="fas fa-desktop"></i>
+                        <h1 class="text-base nu-text font-bold"> ОНЛАЙН ШАЛГАЛТ</h1>
+                    </div>
+                    <ul class="navList list-none h1-color bg-white absolute">
+                        <li class="text-black">Сонголттой  болон нөхөх гэсэн хоёр хэлбэрээр шалгалтыг авах</li>
+                        <li class="text-black">Тестийг автоматаар хольж гаргах</li>
+                        <li class="text-black">Тестийн хариултыг нууцлах болон нээлттэйгээр авч болно</li>
+                        <li class="text-black">Тестийг хугацаатай болон хугацаагүй авч болно</li>
+                        <li class="text-black">Тестийг ганц удаа болон олон удаа өгөх боломжтой</li>
+                        <li class="text-black">Багш өмнөх хэрэглэж байсан тестийг дахин ашиглах боломжтой</li>
+                    </ul>
+                </div>
+                <div class="card rounded-2xl relative">
+                    <div class="flex items-center justify-center p-10 text-white w-full gap-2" href="#">
+                        <i id="anime" class="far fa-comments"></i>
+                        <h1 class="text-base nu-text font-bold"> ЗАРЛАЛ БОЛОН МЭДЭГДЭЛ</h1>
+                    </div>
+                    <ul class="navList list-none h1-color bg-white absolute">
+                        <li class="text-black">Сургуулийн удирдлага болон багш нар зарлал оруулах</li>
+                        <li class="text-black">Зарлал гар утсанд мэдэгдэл болж ирэх</li>
+                        <li class="text-black">Оруулсан зарлалыг сурагч, багш, эцэг эх харах боломжтой</li>
+                    </ul>
+                </div>
+                <div class="card rounded-2xl relative">
+                    <div class="flex items-center justify-center p-10 text-white w-full gap-2" href="#">
+                        <i id="anime" class="far fa-address-card"></i>
+                        <h1 class="text-base nu-text font-bold"> NFC КАРТ</h1>
+                    </div>
+                    <ul class="navList list-none h1-color bg-white absolute">
+                        <li class="text-black">Ирц бүртгэх</li>
+                        <br>
+                        <li class="text-black">Худалдан авалт хийх /Хоол/</li>
+                        <li class="text-black">Сургуулийн автобусны карт хэлбэрээр ашиглах</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container px-28 py-6 cursor-pointer flex gap-8">
+                <div class="card rounded-2xl relative">
+                    <div class="flex items-center justify-center p-10 text-white w-full gap-2" href="#">
+                        <i id="anime" class="fas fa-image"></i>
+                        <h1 class="text-base nu-text font-bold"> КОНТЕНТ</h1>
+                    </div>
+                    <ul class="navList list-none h1-color bg-white absolute">
+                        <li class="text-black">Контент байршуулах</li>
+                        <li class="text-black">Контент татаж авах</li>
+                        <li class="text-black">Контентийг Pdf, татац, видео, аудио гэсэн хэлбэрээр байршуулах боломжтой</li>
+                    </ul>
+                </div>
+                <div class="card rounded-2xl relative invisible">
+                    <div class="flex items-center justify-center p-10 text-white w-full gap-2" href="#">
+                        <i id="anime" class="fas fa-home"></i>
+                        <h1 class="text-base nu-text font-bold"> ГЭРИЙН ДААЛГАВАР</h1>
+                    </div>
+                    <ul class="navList list-none h1-color bg-white absolute">
+                        <li class="text-black">Гэрийн даалгавар оруулах</li>
+                        <li class="text-black">Гэрийн даалгавар явуулах</li>
+                        <li class="text-black">Гэрийн даалгавар шалгах</li>
+                        <li class="text-black">Гэрийн даалгаврын гүйцэтгэлийг харах</li>
+                        <li class="text-black">Багш өмнөх гэрийн даалгаврын сангаасаа дахин оруулах</li>
+                        <li class="text-black">Гэрийн даалгаврын мэдээллийг анги,бүлэг, хүүхэд тус бүрээр шүүж харах</li>
+                    </ul>
+                </div>
+                <div class="card rounded-2xl relative invisible">
+                    <div class="flex items-center justify-center p-10 text-white w-full gap-2" href="#">
+                        <i id="anime" class="fas fa-clipboard-check"></i>
+                        <h1 class="text-base nu-text font-bold"> НЭХЭМЖЛЭЛ</h1>
+                    </div>
+                    <ul class="navList list-none h1-color bg-white absolute">
+                        <li class="text-black">Төлбөрийн нэхэмжлэл илгээх</li>
+                        <li class="text-black">Эцэг эх нэхэмжлэлийг хүлээж авах</li>
+                        <li class="text-black">Хүүхэд тус бүрийн төлбөрийн мэдээллийг харах</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full bg-neg">
+            <div class="container px-8 py-24">
+                <div class="nu-text">
+                    <h1 class="text-white text-center text-5xl font-bold">СИСТЕМИЙН ДАВУУ ТАЛУУД</h1>
+                </div>
+                <div class="flex justify-center items-center gap-4 my-20">
+                    <div class="small-box rounded-2xl relative">
+                        <div class="text-white flex justify-center items-center w-full h-full">
+                            <h3 class="text-center text-base font-bold nu-text">
+                                Сургууль нэгдсэн дата 
+                                <br> 
+                                сантай болно
+                            </h3>
+                        </div>
+                        <div class="icon rounded-full flex justify-center items-center absolute -top-14 inset-x-40">
+                            <img class="icon-img" src="https://amjilt.com/landing-assets/upload/icons/6.png" alt="">
+                        </div>
+                    </div>
+                    <div class="small-box rounded-2xl relative">
+                        <div class="text-white flex justify-center items-center w-full h-full">
+                            <h3 class="text-center text-base font-bold nu-text">
+                                Сурагчдын статистик мэдээлэлд  
+                                <br> 
+                                дүн шинжилгээ хийнэ
+                            </h3>
+                        </div>
+                        <div class="icon rounded-full flex justify-center items-center absolute -top-14 inset-x-40">
+                            <img class="icon-img" src="https://amjilt.com/landing-assets/upload/icons/5.png" alt="">
+                        </div>
+                    </div>
+                    <div class="small-box rounded-2xl relative">
+                        <div class="text-white flex justify-center items-center w-full h-full">
+                            <h3 class="text-center text-base font-bold nu-text">
+                                Сурагч, эцэг эх, багш, сургууль 
+                                <br> 
+                                дөрөвлөсөн холбоог бий болгоно
+                            </h3>
+                        </div>
+                        <div class="icon rounded-full flex justify-center items-center absolute -top-14 inset-x-40">
+                            <img class="icon-img" src="https://amjilt.com/landing-assets/upload/icons/4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center gap-4 my-20">
+                    <div class="small-box rounded-2xl relative">
+                        <div class="text-white flex justify-center items-center w-full h-full">
+                            <h3 class="text-center text-base font-bold nu-text">
+                                Сурагчид хичээлээ нөхөн
+                                <br> 
+                                үзэх боломжтой
+                            </h3>
+                        </div>
+                        <div class="icon rounded-full flex justify-center items-center absolute -top-14 inset-x-40">
+                            <img class="icon-img" src="https://amjilt.com/landing-assets/upload/icons/3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="small-box rounded-2xl relative">
+                        <div class="text-white flex justify-center items-center w-full h-full">
+                            <h3 class="text-center text-base font-bold nu-text">
+                                Сургуулийн удирдлага багш   
+                                <br> 
+                                ажилчдын мэдээллийг бүрэн хянана
+                            </h3>
+                        </div>
+                        <div class="icon rounded-full flex justify-center items-center absolute -top-14 inset-x-40">
+                            <img class="icon-img" src="https://amjilt.com/landing-assets/upload/icons/2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="small-box rounded-2xl relative">
+                        <div class="text-white flex justify-center items-center w-full h-full">
+                            <h3 class="text-center text-base font-bold nu-text">
+                                Эцэг, эхчүүд хүүхдийнхээ ирц, дүнгийн 
+                                <br> 
+                                мэдээллийг байнга хянах боломжтой
+                            </h3>
+                        </div>
+                        <div class="icon rounded-full flex justify-center items-center absolute -top-14 inset-x-40">
+                            <img class="icon-img" src="https://amjilt.com/landing-assets/upload/icons/1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="W-full">
+            <div class="container px-8 py-20 flex items-center gap-4">
+                <div class="w-full">
+                    <h1 class="h1-color text-5xl nu-text font-bold float-right">
+                        АЮУЛГҮЙ
+                        <br>
+                        БАЙДАЛ
+                    </h1>
+                </div>
+                <div class="w-full">
+                    <p class="p nu-text">Сургуулийн дата нь тухайн сургуулийн өмч бөгөөд
+                        тэрхүү өмчийг Монгол улсын байгууллагын нууцын
+                        тухай хуулийн заалтад үндэслэн Монголын хамгийн
+                        найдвартай гэгдэх үндэсий дата төвд байршуулдаг
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full shadow-lg img-5">
+            <img class="" src="https://amjilt.com/landing-assets/upload/banner22.png" alt="">
+        </div>
+
+        <div class="w-full">
+            <div class="container px-8 py-20">
+                <div class="w-full flex flex-col justify-center items-center py-8">
+                    <h1 class="nu-text font-bold h1-color text-4xl">АМЖИЛТ 2.0 СИСТЕМИЙГ АШИГЛАСНААР ГАРАХ ҮР ДҮН</h1>
+                    <div class="space"></div>
+                </div>
+                <div class="w-full">
+                    <div class="big-box big-img w-full overflow-hidden transform">
+                        <div class="w-full rounded-2xl bg-white bg-opacity-50 h-full bg-color">
+                            <h1 class="h1-color font-bold nu-text text-2xl text-right margin-bot">100%</h1>
+                            <h2 class="h1-color font-bold nu-text text-sm border-left padding-bot ml-4">
+                                СУРГУУЛИЙН ТӨСВИЙГ
+                                <br>
+                                УДИРДАН ХЯНАНА.
+                                <br> <br> <br> <br>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="big-box big-img2 w-full overflow-hidden transform">
+                        <div class="w-full rounded-2xl bg-white bg-opacity-50 h-full bg-color">
+                            <h1 class="h1-color font-bold nu-text text-2xl text-right margin-bot">60%</h1>
+                            <h2 class="h1-color font-bold nu-text text-sm border-left padding-bot ml-4 uppercase">
+                                Бичиг цаасны ажлыг автоматжуулж, цаг
+                                <br>
+                                хэмнэнэ.
+                                <br> <br> <br>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="big-box big-img3 w-full overflow-hidden transform">
+                        <div class="w-full rounded-2xl bg-white bg-opacity-50 h-full bg-color">
+                            <h1 class="h1-color font-bold nu-text text-2xl text-right margin-bot">45%</h1>
+                            <h2 class="h1-color font-bold nu-text text-sm border-left padding-bot ml-4 uppercase">
+                                Сурагч бүрд тохирсон сургалтын уян хатан хөтөлбөрийг боловсруулж хэрэгжүүлнэ.
+                                <br> <br> <br>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="big-box big-img4 w-full overflow-hidden transform">
+                        <div class="w-full rounded-2xl bg-white bg-opacity-50 h-full bg-color">
+                            <h1 class="h1-color font-bold nu-text text-2xl text-right margin-bot">80%</h1>
+                            <h2 class="h1-color font-bold nu-text text-sm border-left padding-bot ml-4 uppercase">
+                                Бодит датанд тулгуурлан
+                                <br>
+                                дүн шинжилгээ хийж оновчтой шийдэл 
+                                <br>
+                                гарганa. 
+                                <br> <br>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="w-full">
+        <div class="container px-8 py-12">
+            <div class="qr flex justify-center items-center gap-8 mb-12">
+                <img src="https://amjilt.com/landing-assets/upload/download/qr-apple.png" alt="">
+                <img src="https://amjilt.com/landing-assets/upload/download/qr-android.png" alt="">
+            </div>
+            <div class="store flex justify-center items-center gap-8">
+                <img src="https://amjilt.com/landing-assets/upload/download/apple.png" alt="">
+                <img src="https://amjilt.com/landing-assets/upload/download/android.png" alt="">
+            </div>
+            <div class="contact flex justify-center gap-8">
+                <div class="flex mt-24 f-anime">
+                    <div class="f-icon flex justify-center items-center">
+                        <i class="fas fa-globe-asia text-white"></i>
+                    </div>
+                    <div class="nu-text">
+                        <h1 class="f-h1 font-bold">www.amjilt.com</h1>
+                    </div>
+                </div>
+                <div class="flex mt-24 f-anime">
+                    <div class="f-icon flex justify-center items-center">
+                        <i class="fas fa-envelope text-white"></i>
+                    </div>
+                    <div class="nu-text">
+                        <h1 class="f-h1 font-bold">system@amjilt.com</h1>
+                    </div>
+                </div>
+                <div class="flex mt-24 f-anime">
+                    <div class="f-icon flex justify-center items-center">
+                        <i class="fas fa-phone text-white"></i>
+                    </div>
+                    <div class="nu-text">
+                        <h1 class="f-h1 font-bold">(+976) 8953-6060 &nbsp;&nbsp;&nbsp; (+976) 8651-6060 &nbsp;&nbsp;&nbsp; (+976) 9016-6060
+                        </h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full mt-14">
+                <h1 class="licence">AMJILTDOTCOM LLC - АМЖИЛТ 2.0 СИСТЕМ</h1>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+    </body>
+</html>
